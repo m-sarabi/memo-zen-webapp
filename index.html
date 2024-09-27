@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="markdown-container">
+    <label for="markdown-input-front"></label>
+    <textarea id="markdown-input-front" class="markdown-input" placeholder="Front of the card"></textarea>
+    <label for="markdown-input-back"></label>
+    <textarea id="markdown-input-back" class="markdown-input" placeholder="Back of the card"></textarea>
+    <button id="save">Save</button>
+</div>
+<div id="card-container">
+    <div id="card-front" class="card-side"></div>
+    <div id="card-back" class="card-side"></div>
+</div>
+<button id="edit">Edit</button>
+<script src="script.js"></script>
+</body>
+</html>
